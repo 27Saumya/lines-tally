@@ -33,4 +33,5 @@ lines-tally [flags] <directory>
 #### Flags
 
 `--noGit` - Exclude the files in your `.gitignore` if present or the `.git` directory.
+
 `--noTarget` - Exclude the files in your `target` directory of Rust.
