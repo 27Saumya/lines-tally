@@ -2,6 +2,8 @@
 
 ![demo](https://i.imgur.com/MzMLCXi.png)
 
+<p align="center"><img src="https://img.shields.io/crates/d/lines-tally?color=C04000" /></p>
+
 ### Overview
 
 This is a blazing fast ⚡, command line tool that calculates the number of lines of code in a specific directory
