@@ -1,4 +1,4 @@
-<h1 align="center">Tally Lines</h1>
+<h1 align="center">Lines Tally</h1>
 
 ![demo](https://i.imgur.com/MzMLCXi.png)
 
