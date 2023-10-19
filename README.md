@@ -2,7 +2,11 @@
 
 ![demo](https://i.imgur.com/MzMLCXi.png)
 
-<p align="center"><img src="https://img.shields.io/crates/d/lines-tally?color=C04000" /></p>
+<p align="center">
+<link href=https://crates.io/crates/lines-tally">
+<img src="https://img.shields.io/crates/d/lines-tally?color=C04000" />
+</link>
+</p>
 
 ### Overview
 
