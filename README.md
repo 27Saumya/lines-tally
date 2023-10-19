@@ -27,7 +27,8 @@ cargo install --path .
 ### Usage
 
 ```bash
-lines-tally [flags] <directory>```
+lines-tally [flags] <directory>
+```
 
 #### Flags
 
