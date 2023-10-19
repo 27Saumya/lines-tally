@@ -14,7 +14,7 @@ repository = "https://github.com/27Saumya/lines-tally"
 keywords = [
 	"cli",
 	"code",
-    "command line"
+    "command-line"
 ]
 categories = ["command-line-interface"]
 license = "MIT"
