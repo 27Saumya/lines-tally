@@ -1,5 +1,7 @@
 <h1 align="center">Tally Lines</h1>
 
+![demo](https://i.imgur.com/MzMLCXi.png)
+
 ### Overview
 
 This is a blazing fast ⚡, command line tool that calculates the number of lines of code in a specific directory
@@ -27,11 +29,5 @@ cargo install --path .
 ### Usage
 
 ```bash
-lines-tally [flags] <directory>
+lines-tally
 ```
-
-#### Flags
-
-`--noGit` - Exclude the files in your `.gitignore` if present or the `.git` directory.
-
-`--noTarget` - Exclude the files in your `target` directory of Rust.

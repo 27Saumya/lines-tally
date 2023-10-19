@@ -6,7 +6,7 @@ include = [
 	"src/**/*",
 	"Cargo.toml",
 	"README.md",
-	"LICENCE"
+	"LICENSE"
 ]
 homepage = "https://github.com/27Saumya/lines-tally"
 description = "Simple command line tool to get the number of lines of code within a directory"
