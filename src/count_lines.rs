@@ -4,7 +4,7 @@ use std::io::prelude::*;
 use walkdir::WalkDir;
 use ignore::gitignore::Gitignore;
 
-pub fn count_lines_in_directory(directory: &str, no_git: bool, no_target: bool) -> usize {
+pub fn count_lines_in_directory(directory: &str, no_git: bool, no_target: bool, no_node_modules: bool, no_pycache: bool) -> usize {
     let gitignore = Gitignore::empty();
     let mut total_lines = 0;
 
@@ -16,7 +16,7 @@ pub fn count_lines_in_directory(directory: &str, no_git: bool, no_target: bool) 
         let path = entry.path();
         let is_git_related = gitignore.matched(path, false).is_ignore();
 
-        if (!no_git || !is_git_related) && (!no_target || !path.starts_with(format!("{}/target/", directory))) {
+        if (!no_git || !is_git_related) && (!no_target || !path.starts_with(format!("{}/target/", directory))) && (!no_node_modules || !path.starts_with(format!("{}/node_modules/", directory))) && (!no_pycache || !path.starts_with(format!("{}/__pycache__/", directory))) {
             let lines = count_lines_in_file(path.to_str().unwrap());
             total_lines += lines;
         }

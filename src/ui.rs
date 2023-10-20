@@ -20,3 +20,17 @@ pub fn ask_exclude_target() -> bool {
         .interact()
         .expect("Failed to read input")
 }
+
+pub fn ask_exclude_node_modules() -> bool {
+    Confirm::with_theme(&ColorfulTheme::default())
+        .with_prompt("Exclude Node Modules directory?")
+        .interact()
+        .expect("Failed to read input")
+}
+
+pub fn ask_exclude_pycache() -> bool {
+    Confirm::with_theme(&ColorfulTheme::default())
+        .with_prompt("Exclude __pycache__ directory?")
+        .interact()
+        .expect("Failed to read input")
+}
