@@ -1,6 +1,6 @@
 <h1 align="center">Lines Tally</h1>
 
-![demo](https://i.imgur.com/MzMLCXi.png)
+![demo](https://i.imgur.com/G9ras2T.png)
 
 <p align="center">
 <link href=https://crates.io/crates/lines-tally">
