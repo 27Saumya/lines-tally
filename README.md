@@ -1,4 +1,4 @@
-<h1 align="center">Tally Lines</h1>
+<h1 align="center">Lines Tally</h1>
 
 ![demo](https://i.imgur.com/MzMLCXi.png)
 
@@ -12,13 +12,13 @@
 
 This is a blazing fast ⚡, command line tool that calculates the number of lines of code in a specific directory
 
-I know there is the option to view the number of lines of code in most IDEs, but is usually limited to just one file, if you're curious about the number of lines you've coded for any of your projects, this tool you is for you!
+While there is an option to view the number of lines of code in most IDEs, but is usually limited to just one file, if you're curious about the number of lines you've coded for any of your projects, this tool you is for you!
 
 This is one of my first Rust projects, and I thought a CLI tool would be great to start with!
 
 ### Installation
 
-#### Using Cargo (Recommended)
+#### Using Cargo-Crates.io (Recommended)
 
 ```bash
 cargo install lines-tally
