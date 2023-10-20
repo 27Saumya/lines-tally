@@ -37,3 +37,7 @@ cargo install --path .
 ```bash
 lines-tally
 ```
+
+### Contributions
+
+Contributions are welcomed! As this project was one of my first rust projects I am not very experienced and if you think the tool misses out on something important, feel free to open a PR/Issue!
